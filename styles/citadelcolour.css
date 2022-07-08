@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&display=swap');
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #EAF7F7;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    max-width: 70%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.image-and-bubble {
+    display: flex;
+}
+
+.section-title {
+    font-size: 120px;
+    text-align: left;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: Staatliches, cursive;
+    filter: drop-shadow(5px 5px 1px black);
+    -webkit-filter: drop-shadow(5px 5px 1px black);
+}
+
+.topLine {
+    position: relative;
+    border-left: 8px solid #0F0804;
+    left: 70px;
+    height: 90px;
+}
+
+.botLine {
+    position: relative;
+    border-left: 8px solid #0F0804;
+    left: 70px;
+    height: 90px;
+}
+
+.paintcontainer {
+}
+
+.paintSvg {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.labelBubble {
+    flex: 1;
+	background: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    height: fit-content;
+    max-width: fit-content;
+    font-family: 'Roboto', sans-serif;
+
+    padding: 10px;
+    filter: drop-shadow(5px 5px 1px #828282);
+    -webkit-filter: drop-shadow(5px 5px 1px #828282);
+}
+
+.labelArrow {
+    flex: 0;
+    margin-left: 100px;
+    width: 0;
+    height: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left: 0px;
+    
+    border-right: 20px solid white;
+    filter: drop-shadow(5px 5px 1px #828282);
+    -webkit-filter: drop-shadow(5px 5px 1px #828282); 
+}
+
+.bubble-content {
+    display: none;
+    min-width: 900px;
+    max-width: 900px;
+}
+
+.bubbleTitle {
+	font-size: 48px;
+	text-align: left;
+}
+
+.content-top {
+    display: flex;
+}
+
+.content-title {
+    flex: 1;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: auto;
+}
+
+.system-image {
+    flex: 0;
+    margin-left: auto;
+    height: 50px;
+}
+
+.content-body {
+    display: flex;
+    margin: 5px;
+}
+
+.content-image {
+    flex: 0;
+    min-width: 300px;
+    margin: 5px;
+    margin-left: auto;
+}
+
+.content-writing {
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.aos {
+    content:url("https://www.games-workshop.com/resources/static/header-2017/New_AOS_Logo.png");
+}
+
+.whfb {
+    content:url("https://www.warhammer-community.com/wp-content/uploads/2019/11/46cd4786-1025x298.jpg");
+}
+
+.f0k {
+    content:url("https://www.games-workshop.com/resources/static/header-2017/40k-nav-logo.png");
+}
