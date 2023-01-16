@@ -44,6 +44,7 @@ body {
 }
 
 .paintcontainer {
+    break-inside: avoid;
 }
 
 .paintSvg {
